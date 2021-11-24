@@ -43,7 +43,7 @@ a:active {
 <div class="col" style="margin-left:40px; margin-right:20px;">
 <div class="card text-white bg-success mb-3" style="max-width: 50rem;">
   <div class="card-body" style="background-color:MediumSeaGreen;">
-    <div class="w3-container">
+    <div class="w3-container" style="overflow: hidden;">
        <a href="{% url 'question-detail' ques.slug %}">
         <img  src="{{ques.ques_image.url}}" class="responsive" width="600" height="500"style="margin:10px;" />
       </div>
